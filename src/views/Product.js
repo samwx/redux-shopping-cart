@@ -43,7 +43,7 @@ class ProductComponent extends Component {
   }
 }
 
-export const Product = connect(
+export default connect(
   undefined,
   { addToCart }
 )(ProductComponent);
